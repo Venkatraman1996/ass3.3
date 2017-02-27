@@ -1,0 +1,22 @@
+
+1)
+Hadoop 2.x has three Components
+
+*HDFS
+*YARN
+*MapReduce
+
+HDFS: hadoop distributed file system is a java based system,it can store very large amount
+of data which is of any kind without prior organization across a number of machines to enable
+parallel programming
+
+MapReduce:MapReduce is a processing technique and a program model for distributed computing 
+based on java .The MapReduce algorithm contains two important tasks namely map and reduce
+           
+          
+Map= takes a set of data and converts it into another set of data where individual elements are broken down into tuples  key/value pairs
+reduce= it takes the output from a map as an input and combines those data tuples into a smaller set of tuples
+As the sequence of the name MapReduce implies the reduce task is always performed after the map job
+
+YARN:A resource management framework for scheduling and handling resource requests from distributed applications
+     it is cost effective implementation
